@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+		<title> Galeria de arta La Fontaine </title>
+		<link rel="shortcut icon" type="image/x-icon" href="./poze/favicon.jpg"/>
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Boroseanu Darius">
+		<meta name = "description" content = " Galerie de arta moderna cu posibilitatea cumpararii tablourilor ">
+		<meta name = "keywords" content = "Klimt, Kandinsky, Dali, Magritte">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/> 
+		<link rel="stylesheet" type="text/css" href="../css/styledebaza.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+  <body onload = "Reload();">
+    <%-  include('../fragmente/header')  %>
+    <main>
+            <div class="afisTemplate" id="afisTemplate"> </div>
+            <br>
+            <button onclick = "SorteazaCrescator()" class= "btn-primary">Crescator</button>
+            <button onclick = "SorteazaDescrescator()" class= "btn-primary">Descrescator</button>
+            <button onclick = "ResetSortare()" class= "btn-primary">Reset</button>
+            <button onclick = "CrescatorPret()" class= "btn-primary">Crescator dupa Pret</button>
+            <button onclick = "DesCrescatorPret()" class= "btn-primary">Descrescator dupa Pret</button>
+            <br><br>
+            <p>Id: <input type = "text" id = "inputId"> </p>
+            <p>Medie: <span id = "medie"></span></p>
+            <button onclick = "Filtreaza()" class= "btn-primary">Filtreaza</button>
+    </main>
+    <%- include('../fragmente/footer') %>
+
+    <script src="javascript/test.js"></script>
+
+    <div class="errorAlertWrapper" id="errorAlertWrapper">
+      <div class="errorAlert" id="errorAlert">
+        <div id="errorAlert-text"></div>
+        <button class="errorAlert-okButton" id="errorAlert-okButton">
+
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

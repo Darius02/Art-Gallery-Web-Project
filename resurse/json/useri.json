@@ -1,0 +1,42 @@
+{
+    "lastId": 4,
+    "useri": [
+        {
+            "id": 0,
+            "username": "admin",
+            "nume": "Darius",
+            "email": "darius@gmail.com",
+            "parola": "parola123",
+            "dataInreg": "2021-04-22T13:37:56.920Z",
+            "rol": "admin",
+            "artisti_pref": "Vermeer, Dali"
+        },
+        {
+            "id": 1,
+            "nume": "Boroseanu",
+            "email": "dariusboroseanu1@gmail.com",
+            "parola": "da1234",
+            "dataInreg": "2020-04-25T21:46:07.219Z",
+            "rol": "user",
+            "artisti_pref": ""
+        },
+        {
+            "id": 2,
+            "nume": "Darius",
+            "email": "dariusboroseanu1@gmail.com",
+            "parola": "aaabbb",
+            "dataInreg": "2020-04-26T21:46:46.417Z",
+            "rol": "user",
+            "artisti_pref": "dali, vermeer"
+        },
+        {
+            "id": 3,
+            "nume": "Darius",
+            "email": "dariusboroseanu1@gmail.com",
+            "parola": "aaabbb1",
+            "dataInreg": "2020-04-27T16:04:35.964Z",
+            "rol": "user",
+            "artisti_pref": "dali, vermeer"
+        }
+    ]
+}
